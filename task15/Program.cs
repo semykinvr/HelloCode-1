@@ -15,4 +15,5 @@ int k23 = number % 23;
 
 if (k7 == 0) Console.WriteLine($"Число: {number} кратно 7");
 if (k23 == 0) Console.WriteLine($"Число: {number} кратно 23");
-if (k23 != 0 && k7 !=0) Console.WriteLine($"Число не кратно 7 или 23");
+if (k23 !=0 && k7 !=0) Console.WriteLine($"Число {number} не кратно 7 и 23");
+if (k23 == 0 && k7 == 0) Console.WriteLine($"Число {number} кратно 7 и 23");
