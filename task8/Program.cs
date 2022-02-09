@@ -4,12 +4,12 @@ int max = 0;
 while (max <= 1)
 {
     Console.Write("Введите натуральное число, больше единицы: ");
-    string input = Console.ReadLine();
+    string? input = Console.ReadLine();
     int.TryParse(input, out max);
 }
 
 int num = 2;
-Console.Write($"Это чётные числа от 1 до {num}:  ");
+Console.Write($"Это чётные числа от 1 до {max}:  ");
 while (num <= max)
 {
     Console.Write($"{num},  ");
