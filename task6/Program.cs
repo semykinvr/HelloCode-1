@@ -1,5 +1,15 @@
 ﻿// Выяснить является ли число чётным
 
+int number = new Random().Next(1, 100);
+Console.WriteLine("Сгенерировано число: " + number);
+
+int ostatok = number % 2;
+if (number % 2 == 0) Console.WriteLine("число ЧЁТНОЕ");  
+                else Console.WriteLine("число НЕЧЁТНОЕ"); 
+
+
+
+/*
 int num = 0;
 bool isNotInt = true;
 while (isNotInt)
@@ -15,3 +25,4 @@ if (num % 2 == 0)
 { Console.WriteLine("ЧЁТНОЕ"); } 
 else
 { Console.WriteLine("неЧЁТНОЕ"); };
+*/

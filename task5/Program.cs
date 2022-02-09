@@ -1,11 +1,12 @@
 ﻿//  Написать программу вычисления значения функции y = f(a) 
-// (площадь круга)
+
+
+// ПЛОЩАДЬ КРУГА
 
 Console.Write("Введите параметр 'а' :");
 float a = Convert.ToSingle(Console.ReadLine());
 float y = F(a);
-Console.Write("Значение функции y=f(a): "+ y);
-
+Console.WriteLine("Значение функции y=f(a): "+ y);
 
 // Это функция F
 static float F(float parametr_a) {

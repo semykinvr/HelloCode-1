@@ -4,10 +4,12 @@
 int GetWeeklyNumber()
 {
     int i = 0;
+    string? input = String.Empty;
     while (i < 1 || i > 7)
     {
         Console.WriteLine("Введите номер дня недели от 1 до 7: ");
-        string? input = Console.ReadLine();
+        //string? input = Console.ReadLine();
+        input = Console.ReadLine();
         //i = Convert.ToInt32(input);
         int.TryParse(input, out i);
         //Console.WriteLine("i= " + i);
