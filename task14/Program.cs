@@ -16,7 +16,7 @@ int GetIntegerFromConsole(int min, int max)
     return result;
 }
 
-// получение последней цифры это остаток от деления на 10
+// функция получения последней цифры это остаток от деления на 10
 int GetLastDigit (int gld) { return (gld % 10); }
 
 

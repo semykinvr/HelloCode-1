@@ -4,8 +4,8 @@ int number = new Random().Next(1, 100);
 Console.WriteLine("Сгенерировано число: " + number);
 
 int ostatok = number % 2;
-if (number % 2 == 0) Console.WriteLine("число ЧЁТНОЕ");  
-                else Console.WriteLine("число НЕЧЁТНОЕ"); 
+if (number % 2 == 0) Console.WriteLine("число ЧЁТНОЕ");
+else Console.WriteLine("число НЕЧЁТНОЕ");
 
 
 

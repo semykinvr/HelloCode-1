@@ -21,8 +21,3 @@ switch (n)
     case 4: Console.WriteLine("в 1 четверти координаты точек: X > 0 и Y < 0"); break;
 }
 
-
-
-//Ploskost(x1, y1);
-
-
